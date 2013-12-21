@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKGROUND_H	.\BackGround.h	2;"	d
+BackGround	.\BackGround.cpp	/^BackGround::BackGround()$/;"	f	class:BackGround	signature:()
+BackGround	.\BackGround.h	/^	BackGround();$/;"	p	class:BackGround	access:public	signature:()
+BackGround	.\BackGround.h	/^class BackGround$/;"	c
+BackGround::BackGround	.\BackGround.cpp	/^BackGround::BackGround()$/;"	f	class:BackGround	signature:()
+BackGround::BackGround	.\BackGround.h	/^	BackGround();$/;"	p	class:BackGround	access:public	signature:()
+BackGround::GetBackground	.\BackGround.cpp	/^void BackGround::GetBackground(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)
+BackGround::GetBackground	.\BackGround.h	/^	void GetBackground(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2);$/;"	p	class:BackGround	access:public	signature:(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2)
+BackGround::GetFileName	.\BackGround.cpp	/^string BackGround::GetFileName(const char *fullname)$/;"	f	class:BackGround	signature:(const char *fullname)
+BackGround::GetFileName	.\BackGround.h	/^	string GetFileName(const char *fullname);$/;"	p	class:BackGround	access:private	signature:(const char *fullname)
+BackGround::Init	.\BackGround.cpp	/^void BackGround::Init(int width,int height)$/;"	f	class:BackGround	signature:(int width,int height)
+BackGround::Init	.\BackGround.h	/^	void Init(int width,int height);$/;"	p	class:BackGround	access:private	signature:(int width,int height)
+BackGround::InitOutputPerBackground	.\BackGround.cpp	/^void BackGround::InitOutputPerBackground(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)
+BackGround::InitOutputPerBackground	.\BackGround.h	/^	void InitOutputPerBackground(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2);$/;"	p	class:BackGround	access:public	signature:(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2)
+BackGround::LoadPictures	.\BackGround.cpp	/^void BackGround::LoadPictures(string srcfilename)$/;"	f	class:BackGround	signature:(string srcfilename)
+BackGround::LoadPictures	.\BackGround.h	/^	void LoadPictures(string srcfilename);$/;"	p	class:BackGround	access:private	signature:(string srcfilename)
+BackGround::OutputBackground	.\BackGround.cpp	/^void BackGround::OutputBackground(double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(double scale,double scalefactor,double step)
+BackGround::OutputBackground	.\BackGround.h	/^	void OutputBackground(double scale,double scalefactor,double step);$/;"	p	class:BackGround	access:private	signature:(double scale,double scalefactor,double step)
+BackGround::OutputPerBackground	.\BackGround.cpp	/^void BackGround::OutputPerBackground(cv::Mat &bg)$/;"	f	class:BackGround	signature:(cv::Mat &bg)
+BackGround::OutputPerBackground	.\BackGround.h	/^	void OutputPerBackground(cv::Mat &bg);$/;"	p	class:BackGround	access:public	signature:(cv::Mat &bg)
+BackGround::SetOutputDir	.\BackGround.cpp	/^void BackGround::SetOutputDir(string outputdir)$/;"	f	class:BackGround	signature:(string outputdir)
+BackGround::SetOutputDir	.\BackGround.h	/^	void SetOutputDir(string outputdir);$/;"	p	class:BackGround	access:private	signature:(string outputdir)
+BackGround::SetPrefix	.\BackGround.cpp	/^void BackGround::SetPrefix(string prefix)$/;"	f	class:BackGround	signature:(string prefix)
+BackGround::SetPrefix	.\BackGround.h	/^	void SetPrefix(string prefix);$/;"	p	class:BackGround	access:private	signature:(string prefix)
+BackGround::m_bgroi	.\BackGround.h	/^	cv::Size m_bgroi;$/;"	m	class:BackGround	access:private
+BackGround::m_currentroi	.\BackGround.h	/^	cv::Rect m_currentroi;$/;"	m	class:BackGround	access:private
+BackGround::m_filepath	.\BackGround.h	/^	string m_filepath;$/;"	m	class:BackGround	access:private
+BackGround::m_fin	.\BackGround.h	/^	ifstream m_fin;$/;"	m	class:BackGround	access:private
+BackGround::m_input	.\BackGround.h	/^	cv::Mat m_input;$/;"	m	class:BackGround	access:private
+BackGround::m_output	.\BackGround.h	/^	cv::Mat m_output;$/;"	m	class:BackGround	access:private
+BackGround::m_outputdir	.\BackGround.h	/^	string m_outputdir;$/;"	m	class:BackGround	access:private
+BackGround::m_prefix	.\BackGround.h	/^	string m_prefix;$/;"	m	class:BackGround	access:private
+BackGround::m_scale	.\BackGround.h	/^	double m_scale;$/;"	m	class:BackGround	access:private
+BackGround::m_scalefactor	.\BackGround.h	/^	double m_scalefactor;$/;"	m	class:BackGround	access:private
+BackGround::m_srcfilename	.\BackGround.h	/^	string m_srcfilename;$/;"	m	class:BackGround	access:private
+BackGround::m_step	.\BackGround.h	/^	double m_step;$/;"	m	class:BackGround	access:private
+BackGround::m_total	.\BackGround.h	/^	unsigned int m_total;$/;"	m	class:BackGround	access:private
+BackGround::~BackGround	.\BackGround.cpp	/^BackGround::~BackGround()$/;"	f	class:BackGround	signature:()
+BackGround::~BackGround	.\BackGround.h	/^	~BackGround();$/;"	p	class:BackGround	access:public	signature:()
+GetBackground	.\BackGround.cpp	/^void BackGround::GetBackground(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)
+GetBackground	.\BackGround.h	/^	void GetBackground(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2);$/;"	p	class:BackGround	access:public	signature:(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2)
+GetFileName	.\BackGround.cpp	/^string BackGround::GetFileName(const char *fullname)$/;"	f	class:BackGround	signature:(const char *fullname)
+GetFileName	.\BackGround.h	/^	string GetFileName(const char *fullname);$/;"	p	class:BackGround	access:private	signature:(const char *fullname)
+Init	.\BackGround.cpp	/^void BackGround::Init(int width,int height)$/;"	f	class:BackGround	signature:(int width,int height)
+Init	.\BackGround.h	/^	void Init(int width,int height);$/;"	p	class:BackGround	access:private	signature:(int width,int height)
+InitOutputPerBackground	.\BackGround.cpp	/^void BackGround::InitOutputPerBackground(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(string srcfilename,string outputdir,unsigned int width,unsigned int height,double scale,double scalefactor,double step)
+InitOutputPerBackground	.\BackGround.h	/^	void InitOutputPerBackground(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2);$/;"	p	class:BackGround	access:public	signature:(string srcfilename,string outputdir,unsigned int width=20,unsigned int height=20,double scale=1.2,double scalefactor=1.2,double step=0.2)
+LoadPictures	.\BackGround.cpp	/^void BackGround::LoadPictures(string srcfilename)$/;"	f	class:BackGround	signature:(string srcfilename)
+LoadPictures	.\BackGround.h	/^	void LoadPictures(string srcfilename);$/;"	p	class:BackGround	access:private	signature:(string srcfilename)
+OutputBackground	.\BackGround.cpp	/^void BackGround::OutputBackground(double scale,double scalefactor,double step)$/;"	f	class:BackGround	signature:(double scale,double scalefactor,double step)
+OutputBackground	.\BackGround.h	/^	void OutputBackground(double scale,double scalefactor,double step);$/;"	p	class:BackGround	access:private	signature:(double scale,double scalefactor,double step)
+OutputPerBackground	.\BackGround.cpp	/^void BackGround::OutputPerBackground(cv::Mat &bg)$/;"	f	class:BackGround	signature:(cv::Mat &bg)
+OutputPerBackground	.\BackGround.h	/^	void OutputPerBackground(cv::Mat &bg);$/;"	p	class:BackGround	access:public	signature:(cv::Mat &bg)
+SetOutputDir	.\BackGround.cpp	/^void BackGround::SetOutputDir(string outputdir)$/;"	f	class:BackGround	signature:(string outputdir)
+SetOutputDir	.\BackGround.h	/^	void SetOutputDir(string outputdir);$/;"	p	class:BackGround	access:private	signature:(string outputdir)
+SetPrefix	.\BackGround.cpp	/^void BackGround::SetPrefix(string prefix)$/;"	f	class:BackGround	signature:(string prefix)
+SetPrefix	.\BackGround.h	/^	void SetPrefix(string prefix);$/;"	p	class:BackGround	access:private	signature:(string prefix)
+m_bgroi	.\BackGround.h	/^	cv::Size m_bgroi;$/;"	m	class:BackGround	access:private
+m_currentroi	.\BackGround.h	/^	cv::Rect m_currentroi;$/;"	m	class:BackGround	access:private
+m_filepath	.\BackGround.h	/^	string m_filepath;$/;"	m	class:BackGround	access:private
+m_fin	.\BackGround.h	/^	ifstream m_fin;$/;"	m	class:BackGround	access:private
+m_input	.\BackGround.h	/^	cv::Mat m_input;$/;"	m	class:BackGround	access:private
+m_output	.\BackGround.h	/^	cv::Mat m_output;$/;"	m	class:BackGround	access:private
+m_outputdir	.\BackGround.h	/^	string m_outputdir;$/;"	m	class:BackGround	access:private
+m_prefix	.\BackGround.h	/^	string m_prefix;$/;"	m	class:BackGround	access:private
+m_scale	.\BackGround.h	/^	double m_scale;$/;"	m	class:BackGround	access:private
+m_scalefactor	.\BackGround.h	/^	double m_scalefactor;$/;"	m	class:BackGround	access:private
+m_srcfilename	.\BackGround.h	/^	string m_srcfilename;$/;"	m	class:BackGround	access:private
+m_step	.\BackGround.h	/^	double m_step;$/;"	m	class:BackGround	access:private
+m_total	.\BackGround.h	/^	unsigned int m_total;$/;"	m	class:BackGround	access:private
+main	.\main.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+~BackGround	.\BackGround.cpp	/^BackGround::~BackGround()$/;"	f	class:BackGround	signature:()
+~BackGround	.\BackGround.h	/^	~BackGround();$/;"	p	class:BackGround	access:public	signature:()
